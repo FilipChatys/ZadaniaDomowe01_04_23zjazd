@@ -21,6 +21,8 @@ public class zadanie4 {
     public static void main(String[] args) {
 
         System.out.println(blackjack(19,19));
+        System.out.println(blackjack(19,15));
+        System.out.println(blackjack(21,12));
 
     }
 

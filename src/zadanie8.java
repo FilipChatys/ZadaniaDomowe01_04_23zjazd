@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Random;
 
 //Napisz program, który generuje 30 elementową tablicę (liczby 0 - 100). Program powinien wypisywać na ekranie
@@ -28,7 +27,6 @@ public class zadanie8 {
         //for(int element : tablica1){
         //    System.out.print(element + " ");
         //}
-
 
         System.out.println("\n");
         System.out.println(tablica1[28]);
