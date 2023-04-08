@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Napisz program w którym zdefiniowana jest zmienna n. Program ma wyświetlać n elementów ciągu Fibonacciego.
 // Co to jest ciąg Fibonacciego znajdziecie na wikipedii
-public class zadanie5 {
+public class Zadanie5 {
 
     public static void main(String[] args) {
 

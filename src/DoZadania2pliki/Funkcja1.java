@@ -1,7 +1,7 @@
+package DoZadania2pliki;
 
-public class zadanie2 {
-
-    public static boolean makeGoal(int small, int big, int goal) {
+public class Funkcja1 {
+    public boolean makeGoal(int small, int big, int goal) {
         // Calculate the maximum length we can make with the given big bricks
         int maxBigLength = big * 5;
 
@@ -28,13 +28,5 @@ public class zadanie2 {
 
         // If we haven't returned true yet, we can't make the goal
         return false;
-    }
-
-    public static void main(String[] args) {
-        int small = 3;
-        int big = 1;
-        int goal = 9;
-        boolean result = makeGoal(small, big, goal);
-        System.out.println(result);
     }
 }

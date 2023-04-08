@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Program zawiera zmienną n. Napisz program, który sprawdzi jaką potęgą liczby 2 jest liczba n. Program powinien
 //wyświetlać potęgę lub komunikat jeśli liczba n nie jest potęgą liczby 2
-public class zadanie7 {
+public class Zadanie7 {
 
 
         public static void main (String[]args){

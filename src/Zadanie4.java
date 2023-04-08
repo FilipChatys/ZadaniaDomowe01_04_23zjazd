@@ -1,4 +1,4 @@
-public class zadanie4 {
+public class Zadanie4 {
 
     public static int blackjack(int a, int b){
 

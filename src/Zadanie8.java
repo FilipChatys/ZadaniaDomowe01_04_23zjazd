@@ -3,7 +3,7 @@ import java.util.Random;
 
 //Napisz program, który generuje 30 elementową tablicę (liczby 0 - 100). Program powinien wypisywać na ekranie
 // wygenerowaną tablicę oraz drugą największą liczbę w tablicy.
-public class zadanie8 {
+public class Zadanie8 {
     public static void main(String[] args) {
 
         int [] tablica1 = new int[30];

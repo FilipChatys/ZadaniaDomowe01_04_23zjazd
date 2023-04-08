@@ -1,9 +1,8 @@
-import java.util.Arrays;
 import java.util.Random;
 
 //Napisz program który generuje 10 elementową tablicę liczb (0 - 100) a następnie przesuwa tą tablicę o 3 elementy
 // w prawo. Program ma wypisywać na ekranie pierwotną oraz przesuniętą tablicę
-public class zadanie6 {
+public class Zadanie6 {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-public class zadanie3 {
+public class Zadanie3 {
     public static int fixTeen(int n) {
 
         if(n >= 13 && n <= 19 && n != 15 && n !=16 ){
