@@ -27,7 +27,6 @@ public class GUI_BMI {
 
     public String healthState(double bmi) {
 
-
         if (bmi < 18.5) {
             System.out.println("Stan: Niedowaga");
         }

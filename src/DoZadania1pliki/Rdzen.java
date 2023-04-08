@@ -38,11 +38,15 @@ public class Rdzen {
                 case "2":
                     System.out.println("Podaj swoje ID: ");
 
-                    //getBmi(scanner.next());
-
                     System.out.println(getBmi(scanner.next()));
 
-                    System.out.println("Oto twój wynik urzytkowniku");
+                    System.out.println("Oto twój wynik urzytkowniku. Dla przypomnienia : ");
+                    System.out.println("BMI < 18,5 oznacza niedowagę");
+                    System.out.println("18,5 <= BMI <=24,9 oznacza wagę prawidłową");
+                    System.out.println("25 <= BMI <= 29,9 oznacza nadwagę");
+                    System.out.println("30 <= BMI <= 39,9 oznacza otyłość");
+                    System.out.println("40 <= BMI oznacza EXTRA THICK");
+
 
                     break;
 
