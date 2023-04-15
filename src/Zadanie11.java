@@ -4,7 +4,7 @@ import java.util.Random;
 // znajdują się 3 takie same elementy, jeśli nie to generuje tablice ponownie. Program ma wypisywać
 // wygenerowane tablice oraz ilość ponownych generacji tablic.
 
-public class Zadanie11 {
+    public class Zadanie11 {
     static Random random = new Random();
 
     public static int[] nowyGeneratorTablic(int[] a) {
@@ -19,7 +19,7 @@ public class Zadanie11 {
         for (int j = 0; j < arrayToTest.length; j++) {
             for (int k = j + 1; k < arrayToTest2.length; k++) {
                 for (int i = k + 1; i < arrayToTest3.length; i++) {
-                    if ((k != j) && (i != j) && (arrayToTest[j] == arrayToTest2[k] && arrayToTest3[i] == arrayToTest2[k])) {
+                    if (arrayToTest[j] == arrayToTest2[k] && arrayToTest3[i] == arrayToTest2[k]) {
 
                         return false;
 
