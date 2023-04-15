@@ -14,12 +14,12 @@ public class Zadanie11 {
         return a;
     }
 
-    public static boolean sprawdzaniePotrojnychDuplikatow(int[] arrayToTest) {
+    public static boolean sprawdzaniePotrojnychDuplikatow(int[] arrayToTest, int[] arrayToTest2, int[] arrayToTest3) {
 
         for (int j = 0; j < arrayToTest.length; j++) {
-            for (int k = j + 1; k < arrayToTest.length; k++) {
-                for (int i = k + 1; i < arrayToTest.length; i++) {
-                    if ((k != j) && (i != j) && (arrayToTest[k] == arrayToTest[j] && arrayToTest[i] == arrayToTest[j])) {
+            for (int k = j + 1; k < arrayToTest2.length; k++) {
+                for (int i = k + 1; i < arrayToTest3.length; i++) {
+                    if ((k != j) && (i != j) && (arrayToTest[j] == arrayToTest2[k] && arrayToTest3[i] == arrayToTest2[k])) {
 
                         return false;
 
@@ -33,6 +33,9 @@ public class Zadanie11 {
         public static void main (String[]args){
 
             int[] tablica1 = nowyGeneratorTablic(new int[10]);
+            int[] tablica2 = nowyGeneratorTablic(new int[10]);
+            int[] tablica3 = nowyGeneratorTablic(new int[10]);
+
 
             int licznik = 0;
 
@@ -40,15 +43,41 @@ public class Zadanie11 {
                 System.out.print(element + " ");
             }
             System.out.println("\n");
+
+            for (int element : tablica2) {
+                System.out.print(element + " ");
+            }
+            System.out.println("\n");
+
+            for (int element : tablica3) {
+                System.out.print(element + " ");
+            }
+
+            System.out.println("\n");
             do {
                 tablica1 = nowyGeneratorTablic(new int[10]);
+                tablica2 = nowyGeneratorTablic(new int[10]);
+                tablica3 = nowyGeneratorTablic(new int[10]);
 
                 licznik += 1;
 
-            } while (sprawdzaniePotrojnychDuplikatow(tablica1)) ;
+            } while (sprawdzaniePotrojnychDuplikatow(tablica1, tablica2, tablica3)) ;
 
+            System.out.println("Tablice bez duplikatów");
 
             for (int element : tablica1) {
+                System.out.print(element + " ");
+            }
+
+            System.out.println("\n");
+
+            for (int element : tablica2) {
+                System.out.print(element + " ");
+            }
+
+            System.out.println("\n");
+
+            for (int element : tablica3) {
                 System.out.print(element + " ");
             }
 
